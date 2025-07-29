@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "next.config.ts",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "OPENAI_API_KEY": "@openai_api_key",
+    "PHONEPE_MERCHANT_ID": "@phonepe_merchant_id",
+    "PHONEPE_SALT_KEY": "@phonepe_salt_key",
+    "PHONEPE_SALT_INDEX": "@phonepe_salt_index",
+    "MONGODB_URI": "@mongodb_uri",
+    "JWT_SECRET": "@jwt_secret",
+    "NEXTAUTH_SECRET": "@nextauth_secret",
+    "NEXTAUTH_URL": "https://your-vercel-domain.vercel.app"
+  }
+}
